@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Naše nabídka – Kafe Dostoyevsky</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo Kafe Dostoyevsky">
+        <div class="hlavicka-text">
+            <h1><a href="index.html">Kafe Dostoyevsky</a></h1>
+            <p>Vaše chvíle klidu u dobré kávy</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Domů</a>
+        <a href="nabidka.html" class="aktivni">Naše nabídka</a>
+        <a href="o-nas.html">O nás</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <main>
+        <section id="nabidka">
+            <h2>Naše nabídka</h2>
+            <p class="uvod">Vyberte si něco dobrého ke kávě.</p>
+
+            <h3>Káva a nápoje</h3>
+            <ul class="menu">
+                <li>
+                    <span><b>Espresso</b><span class="popis">Silné, voňavé, krátké</span></span>
+                    <span class="cena">55 Kč</span>
+                </li>
+                <li>
+                    <span><b>Cappuccino</b><span class="popis">Espresso, mléko a jemná pěna</span></span>
+                    <span class="cena">70 Kč</span>
+                </li>
+                <li>
+                    <span><b>Café latte</b><span class="popis">Hodně mléka, mírná chuť kávy</span></span>
+                    <span class="cena">75 Kč</span>
+                </li>
+                <li>
+                    <span><b>Horká čokoláda</b><span class="popis">Hustá, z pravé čokolády</span></span>
+                    <span class="cena">65 Kč</span>
+                </li>
+            </ul>
+
+            <h3>Dezerty</h3>
+            <ul class="menu">
+                <li>
+                    <span><b>Čokoládový dort</b><span class="popis">Vlhký, tmavý, s čokoládovou polevou</span></span>
+                    <span class="cena">85 Kč</span>
+                </li>
+                <li>
+                    <span><b>Domácí cheesecake</b><span class="popis">Smetanový krém na křupavém základu</span></span>
+                    <span class="cena">90 Kč</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kafe Dostoyevsky</p>
+        <p><a href="kontakt.html">Kontakt</a> · <a href="AI_a_zdroje.txt">Využití AI a zdroje</a></p>
+    </footer>
+
+</body>
+</html>

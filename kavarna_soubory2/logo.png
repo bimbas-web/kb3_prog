@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kafe Dostoyevsky – Vaše chvíle klidu u dobré kávy</title>
+    <meta name="description" content="Kafe Dostoyevsky – útulná kavárna s čerstvou kávou, domácími dezerty a atmosférou k zamyšlení.">
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo Kafe Dostoyevsky">
+        <div class="hlavicka-text">
+            <h1><a href="index.html">Kafe Dostoyevsky</a></h1>
+            <p>Vaše chvíle klidu u dobré kávy</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html" class="aktivni">Domů</a>
+        <a href="nabidka.html">Naše nabídka</a>
+        <a href="o-nas.html">O nás</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <main>
+        <section id="domu">
+            <h2>Vítejte v Kafe Dostoyevsky</h2>
+            <p class="uvod">
+                Objevte místo, kde se spojuje vůně čerstvé kávy,
+                příjemná atmosféra a stylový interiér.
+                Naším cílem je nabídnout vám prostor pro odpočinek,
+                setkání s přáteli nebo chvíli klidu s knihou.
+            </p>
+
+            <img class="foto" src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=80"
+                 alt="Útulná kavárna">
+
+            <p class="stred"><a class="tlacitko" href="nabidka.html">Prohlédnout nabídku</a></p>
+        </section>
+
+        <hr>
+
+        <section id="proc-my">
+            <h2>Proč právě my?</h2>
+            <div class="karty">
+                <div class="karta">
+                    <h3>Čerstvá káva</h3>
+                    <p>Zrna pražíme v malých dávkách a mleme až těsně před přípravou.</p>
+                </div>
+                <div class="karta">
+                    <h3>Domácí dezerty</h3>
+                    <p>Dorty a cheesecaky pečeme každé ráno podle vlastních receptů.</p>
+                </div>
+                <div class="karta">
+                    <h3>Knihy a klid</h3>
+                    <p>Vezměte si z knihovničky román, usaďte se a nechte čas plynout pomaleji.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="kde-jsme">
+            <h2>Kde nás najdete</h2>
+            <p class="stred">Rybářova 13 – otevřeno denně, v pracovní dny od 8:00.</p>
+            <p class="stred"><a class="tlacitko" href="kontakt.html">Zobrazit mapu</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kafe Dostoyevsky</p>
+        <p><a href="kontakt.html">Kontakt</a> · <a href="AI_a_zdroje.txt">Využití AI a zdroje</a></p>
+    </footer>
+
+</body>
+</html>

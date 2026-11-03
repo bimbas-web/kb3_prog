@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #17120f;
+    color: #f1e4ce;
+}
+
+header {
+    background-color: #0d0907;
+    padding: 20px 50px;
+    border-bottom: 1px solid #9b7742;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #c9a15b;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    color: #f1e4ce;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c9a15b;
+}
+
+section {
+    min-height: 500px;
+    padding: 100px 10%;
+    border-bottom: 1px solid #59452c;
+}
+
+#domu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#domu h2 {
+    font-size: 55px;
+    color: #c9a15b;
+    margin-bottom: 20px;
+}
+
+#domu a {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: 1px solid #c9a15b;
+    color: #c9a15b;
+    text-decoration: none;
+}
+
+#domu a:hover {
+    background-color: #c9a15b;
+    color: #17120f;
+}
+
+section h2 {
+    color: #c9a15b;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#menu {
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    width: 28%;
+    margin: 15px;
+    padding: 30px;
+    border: 1px solid #9b7742;
+    vertical-align: top;
+}
+
+article h3 {
+    color: #c9a15b;
+    margin-bottom: 20px;
+}
+
+article p {
+    margin: 12px;
+}
+
+#onas {
+    text-align: center;
+}
+
+#kontakt {
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #0d0907;
+    color: #9b7742;
+}
+
+@media (max-width: 700px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #domu h2 {
+        font-size: 38px;
+    }
+
+    article {
+        width: 90%;
+    }
+}

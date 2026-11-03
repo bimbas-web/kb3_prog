@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Moje boxy</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+        }
+
+        
+        .boxy {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .box {
+            width: 76px;
+            height: 76px;
+            background-color: blue;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       
+        .box:hover {
+            background-color: red;
+        }
+
+   
+        .special {
+            position: relative;
+            top: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Moje boxy</h1>
+
+    <div class="boxy">
+
+        <div class="box">
+            Box 1
+        </div>
+
+        <div class="box special">
+            Box 2
+        </div>
+
+        <div class="box">
+            Box 3
+        </div>
+
+    </div>
+
+</body>
+</html>

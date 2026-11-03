@@ -1,0 +1,10 @@
+header {
+    font-size: 30px;
+    font-style: italic;
+    color:aqua;
+
+}
+
+.vpravo {
+    float: right;
+}

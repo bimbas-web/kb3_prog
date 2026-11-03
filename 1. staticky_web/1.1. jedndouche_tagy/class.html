@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje oblíbené hry</title>
+    <link rel="stylesheet" href="class.css">
+
+    <style>
+        /* Class pro celou stránku */
+        .stranka {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            padding: 30px;
+        }
+
+        /* Class pro nadpis */
+        .nadpis {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Class pro všechny karty */
+        .hra {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px #cccccc;
+        }
+
+        /* Class podle typu hry */
+        .akcni {
+            border-left: 8px solid red;
+        }
+
+        .sportovni {
+            border-left: 8px solid green;
+        }
+
+        .zavodni {
+            border-left: 8px solid blue;
+        }
+
+        /* Class pro název hry */
+        .nazev {
+            color: #222;
+        }
+
+        /* Class pro popis */
+        .popis {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* Class pro tlačítko */
+        .tlacitko {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .tlacitko:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="stranka">
+
+
+        <h1 class="nadpis">Moje oblíbené hry</h1>
+
+        <div class="hra akcni">
+            <h2 class="nazev">GTA V</h2>
+            <p class="popis">
+                Akční hra s otevřeným světem, ve které můžeš jezdit autem,
+                plnit mise a prozkoumávat město.
+            </p>
+
+            <a class="tlacitko" href="#">Více informací</a>
+        </div>
+
+
+        <div class="hra sportovni">
+            <h2 class="nazev">EA Sports FC</h2>
+            <p class="popis">
+                Fotbalová hra, ve které můžeš hrát zápasy,
+                vytvářet tým a soutěžit s ostatními hráči.
+            </p>
+
+            <a class="tlacitko" href="#">Více informací</a>
+        </div>
+
+
+        <div class="hra zavodni">
+            <h2 class="nazev">Forza Horizon</h2>
+            <p class="popis">
+                Závodní hra s velkým otevřeným světem
+                a spoustou různých aut.
+            </p>
+
+            <a class="tlacitko" href="#">Více informací</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
